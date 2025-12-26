@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Script para criar um novo ciclo de trabalho
@@ -90,3 +91,4 @@ echo "📂 Branch: $BRANCH_NAME"
 echo "📄 Documentação: $CYCLE_FILE"
 echo ""
 echo "💡 Dica: Edite $CYCLE_FILE para adicionar objetivos e atividades específicas"
+
