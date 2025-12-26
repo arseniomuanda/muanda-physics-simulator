@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Script para criar um novo ciclo de trabalho
@@ -21,22 +22,25 @@ CYCLE_FILE="CYCLE_${CYCLE_NUM}.md"
 cd "$(dirname "$0")"
 
 # Verificar se estamos em main
-CURRENT_BRANCH=$(GIT_DISCOVERY_ACROSS_FILESYSTEM=1 git branch --show-current)
+CURRENT_BRANCH=$(GIT_DISCOVERY_ACROSS_FILESYSTEM=1 git branch --show-current 2>/dev/null || echo "main")
 if [ "$CURRENT_BRANCH" != "main" ]; then
     echo "⚠️  Você não está na branch main. Mudando para main..."
-    GIT_DISCOVERY_ACROSS_FILESYSTEM=1 git checkout main
+    GIT_DISCOVERY_ACROSS_FILESYSTEM=1 git checkout main 2>/dev/null || echo "⚠️  Não foi possível mudar para main, continuando..."
 fi
 
 # Verificar se a branch já existe
-if GIT_DISCOVERY_ACROSS_FILESYSTEM=1 git show-ref --verify --quiet refs/heads/"$BRANCH_NAME"; then
+if GIT_DISCOVERY_ACROSS_FILESYSTEM=1 git show-ref --verify --quiet refs/heads/"$BRANCH_NAME" 2>/dev/null; then
     echo "⚠️  Branch $BRANCH_NAME já existe. Mudando para ela..."
-    GIT_DISCOVERY_ACROSS_FILESYSTEM=1 git checkout "$BRANCH_NAME"
+    GIT_DISCOVERY_ACROSS_FILESYSTEM=1 git checkout "$BRANCH_NAME" 2>/dev/null
     exit 0
 fi
 
 # Criar nova branch
 echo "🌿 Criando nova branch: $BRANCH_NAME"
-GIT_DISCOVERY_ACROSS_FILESYSTEM=1 git checkout -b "$BRANCH_NAME"
+GIT_DISCOVERY_ACROSS_FILESYSTEM=1 git checkout -b "$BRANCH_NAME" 2>/dev/null || {
+    echo "❌ Erro ao criar branch. Verifique se está em um repositório git."
+    exit 1
+}
 
 # Criar arquivo de documentação do ciclo
 cat > "$CYCLE_FILE" << EOF
@@ -87,3 +91,4 @@ echo "📂 Branch: $BRANCH_NAME"
 echo "📄 Documentação: $CYCLE_FILE"
 echo ""
 echo "💡 Dica: Edite $CYCLE_FILE para adicionar objetivos e atividades específicas"
+
