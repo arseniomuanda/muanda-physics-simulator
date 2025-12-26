@@ -1,0 +1,78 @@
+{
+  "material": "gold",
+  "simulation_time": 2.0,
+  "final_state": {
+    "temperature": 2293.15,
+    "pressure": 119208.6325,
+    "phase": "liquid",
+    "density": 18380.95238095238,
+    "volume_ratio": 1.05
+  },
+  "failure": {
+    "occurred": true,
+    "time": 3.0,
+    "mechanism": "Expans\u00e3o extrema - perda de forma"
+  },
+  "transitions": [
+    {
+      "time": 2.0,
+      "transition": "solid \u2192 liquid",
+      "temperature": 2293.15,
+      "energy_change": 1276.7486213063414,
+      "latent_heat_calculated": 126342.49999999993
+    }
+  ],
+  "physics_validation": {
+    "dulong_petit": {
+      "calculated": 193.65750000000003,
+      "expected": 7.627947355963303e+22,
+      "ratio": 2.538789152085644e-21,
+      "valid": false
+    },
+    "energy_conservation": true
+  },
+  "emergent_laws": [],
+  "history_length": 3,
+  "history": {
+    "times": [
+      0,
+      1.0,
+      2.0
+    ],
+    "temperatures": [
+      293.15,
+      1293.15,
+      2293.15
+    ],
+    "pressures": [
+      101325,
+      110311.75,
+      119208.6325
+    ],
+    "volumes": [
+      5.235987755982989e-07,
+      5.459040834387865e-07,
+      5.497787143782139e-07
+    ],
+    "densities": [
+      19300,
+      18511.41377325916,
+      18380.95238095238
+    ],
+    "phases": [
+      "solid",
+      "solid",
+      "liquid"
+    ],
+    "energies": [
+      0,
+      1956.9974167887528,
+      3233.7460380950943
+    ],
+    "entropies": [
+      0,
+      2.904481547759315,
+      3.3259033922503747
+    ]
+  }
+}

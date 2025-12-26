@@ -1,0 +1,108 @@
+{
+  "planck": {
+    "size": 1.616255e-35,
+    "energy": 1956100000.0,
+    "mass": 2.1764547746464832e-08,
+    "level": "Planck",
+    "description": "Escala fundamental do universo"
+  },
+  "quark": {
+    "size": 2.2930623275872793e-21,
+    "energy": 6.480720825089733e+22,
+    "level": "Quark",
+    "description": "Part\u00edculas fundamentais da for\u00e7a forte",
+    "mass": 721077.4389303944
+  },
+  "proton": {
+    "size": 2.2930623275872793e-18,
+    "energy_raw": 1.9442162475269197e+23,
+    "energy_bound": 6.901967678720564e+21,
+    "binding_energy": 1.875196570739714e+23,
+    "efficiency": 0.0355,
+    "level": "Pr\u00f3ton",
+    "description": "N\u00facleon est\u00e1vel (uud)",
+    "mass": 76794.74724608699,
+    "validation": "\u26a0 Massa divergente: 7.68e+04 vs 1.67e-27"
+  },
+  "nucleus": {
+    "size": 2.293062327587279e-13,
+    "energy_raw": 3.8679560410992356e+23,
+    "energy_bound": 1.795836733367502e+20,
+    "binding_energy": 3.866160204365868e+23,
+    "binding_per_nucleon": 6.903857507796193e+21,
+    "protons": 26,
+    "neutrons": 30,
+    "nucleons": 56,
+    "level": "N\u00facleo de Ferro-56",
+    "description": "N\u00facleo est\u00e1vel mais abundante",
+    "mass": 1998.1378420444983
+  },
+  "atom": {
+    "size": 1e-10,
+    "mass": 2012.268672863437,
+    "energy": 1.808536890745877e+20,
+    "electrons": 26,
+    "electron_cloud_radius": 1e-10,
+    "nucleus_radius": 2.293062327587279e-13,
+    "size_ratio": 436.09804581813654,
+    "level": "\u00c1tomo de Ferro",
+    "description": "\u00c1tomo neutro (26 el\u00e9trons)"
+  },
+  "crystal": {
+    "cell": {
+      "size": 2.866e-10,
+      "atoms": 2,
+      "volume": 2.3541197896000005e-29,
+      "mass": 4024.537345726874,
+      "density": 1.709572029217214e+32
+    },
+    "target_volume": 1e-09,
+    "atoms_count": 84957443917491961856,
+    "total_mass": 1.7095720292172143e+23,
+    "linear_size": 0.0010000000000000005,
+    "level": "Cristal de Ferro",
+    "description": "Rede cristalina organizada"
+  },
+  "ant_iron": {
+    "size": 0.004,
+    "volume": 6.4e-08,
+    "cells": 2718638205359742779392,
+    "atoms": 5437276410719485558784,
+    "mass": 1.0941260986990171e+25,
+    "density": 1.709572029217214e+32,
+    "level": "Peda\u00e7o de Ferro (Formiga)",
+    "description": "Objeto macrosc\u00f3pico de 4.0 mm"
+  },
+  "hierarchy": [
+    [
+      "Planck",
+      2.1764547746464832e-08,
+      1.616255e-35
+    ],
+    [
+      "Quark",
+      721077.4389303944,
+      2.2930623275872793e-21
+    ],
+    [
+      "Pr\u00f3ton",
+      76794.74724608699,
+      2.2930623275872793e-18
+    ],
+    [
+      "N\u00facleo Fe",
+      1998.1378420444983,
+      2.293062327587279e-13
+    ],
+    [
+      "\u00c1tomo Fe",
+      2012.268672863437,
+      1e-10
+    ],
+    [
+      "Formiga Fe",
+      1.0941260986990171e+25,
+      0.004
+    ]
+  ]
+}

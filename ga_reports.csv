@@ -1,0 +1,2 @@
+geracao_nome,inicio_utc,fim_utc,duracao_s,cromossomas_avaliados,status,sucesso,insucesso,improvement_abs,improvement_rel,avanco_pct,best_fitness,genes_snapshot
+Gen_1,2025-12-26T01:37:50.154120Z,2025-12-26T01:37:50.156437Z,0.002160310745239258,11,success,True,False,1.3721412894796003e-10,1.3776298542625455e-10,16.666666666666664,0.996015937,99.38536;2.226127;87.47674;8.739748;74.862841;18.880566;16.45776;19.454419

@@ -1,0 +1,54 @@
+{
+  "material": "iron",
+  "simulation_time": 0,
+  "final_state": {
+    "temperature": 293.15,
+    "pressure": 101325,
+    "phase": "solid",
+    "density": 7874,
+    "volume_ratio": 1.0
+  },
+  "failure": {
+    "occurred": true,
+    "time": 0.01,
+    "mechanism": "Ioniza\u00e7\u00e3o completa - mat\u00e9ria dissociada em plasma"
+  },
+  "transitions": [],
+  "physics_validation": {
+    "dulong_petit": {
+      "calculated": 479.315,
+      "expected": 2.6907646012944984e+23,
+      "ratio": 1.7813338252235316e-21,
+      "valid": false
+    },
+    "energy_conservation": true
+  },
+  "emergent_laws": [],
+  "history_length": 1,
+  "history": {
+    "times": [
+      0
+    ],
+    "temperatures": [
+      293.15
+    ],
+    "pressures": [
+      101325
+    ],
+    "volumes": [
+      5.235987755982988e-19
+    ],
+    "densities": [
+      7874
+    ],
+    "phases": [
+      "solid"
+    ],
+    "energies": [
+      0
+    ],
+    "entropies": [
+      0
+    ]
+  }
+}

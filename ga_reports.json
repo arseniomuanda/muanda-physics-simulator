@@ -1,0 +1,30 @@
+[
+  {
+    "geracao_nome": "Gen_1",
+    "inicio_utc": "2025-12-26T01:37:50.154120Z",
+    "fim_utc": "2025-12-26T01:37:50.156437Z",
+    "duracao_s": 0.002160310745239258,
+    "cromossomas_avaliados": 11,
+    "descricao": {
+      "best_fitness": 0.996015937,
+      "improvement_abs": 1.3721412894796003e-10,
+      "improvement_rel": 1.3776298542625455e-10,
+      "genes_snapshot": [
+        99.38536,
+        2.226127,
+        87.47674,
+        8.739748,
+        74.862841,
+        18.880566,
+        16.45776,
+        19.454419
+      ]
+    },
+    "status": "success",
+    "sucesso": true,
+    "insucesso": false,
+    "improvement_abs": 1.3721412894796003e-10,
+    "improvement_rel": 1.3776298542625455e-10,
+    "avanco_pct": 16.666666666666664
+  }
+]

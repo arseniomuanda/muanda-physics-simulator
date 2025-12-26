@@ -1,0 +1,206 @@
+{
+  "material": "iron",
+  "simulation_time": 0.09999999999999999,
+  "final_state": {
+    "temperature": 1000000.0,
+    "pressure": 999550221202.7233,
+    "phase": "plasma",
+    "density": 7874.0,
+    "volume_ratio": 1.0,
+    "compressibility_factor": 0.5,
+    "thermal_expansion_coeff": 1.20009e-05,
+    "bulk_modulus": 170003512625.00003
+  },
+  "failure": {
+    "occurred": true,
+    "time": 0.10999999999999999,
+    "mechanism": "Press\u00e3o al\u00e9m do limite de validade do modelo"
+  },
+  "transitions": [
+    {
+      "time": 0.01,
+      "transition": "solid \u2192 plasma",
+      "temperature": 1000000.0,
+      "pressure": 100000101314.86751,
+      "energy_change": 924189777063627.6,
+      "latent_heat_calculated": 2.2416465030430243e+29,
+      "latent_heat_expected": 0,
+      "accuracy": 0
+    }
+  ],
+  "physics_validation": {
+    "dulong_petit": {
+      "calculated": 480.174369225,
+      "expected": 2.6907646012944984e+23,
+      "ratio": 1.784527598564338e-21,
+      "valid": false
+    },
+    "energy_conservation": false,
+    "gruneisen": {
+      "gamma": NaN,
+      "valid": "False"
+    }
+  },
+  "physics_metrics": {
+    "thermal_expansion_avg": NaN,
+    "bulk_modulus_avg": -Infinity,
+    "thermal_efficiency": 1.0
+  },
+  "emergent_laws": [
+    "Lei da Entropia Crescente: Entropia aumenta com condi\u00e7\u00f5es extremas",
+    "Lei da Ioniza\u00e7\u00e3o T\u00e9rmica: Plasma forma acima de 1000000K"
+  ],
+  "history_length": 11,
+  "improvements_applied": [
+    "Equa\u00e7\u00f5es de estado avan\u00e7adas (Murnaghan, Van der Waals)",
+    "Dilata\u00e7\u00e3o t\u00e9rmica calibrada com valores reais",
+    "F\u00edsica de plasma b\u00e1sica implementada",
+    "Limites de falha mais realistas",
+    "Coeficientes termodin\u00e2micos dependentes de T e P"
+  ],
+  "history": {
+    "times": [
+      0,
+      0.01,
+      0.02,
+      0.03,
+      0.04,
+      0.05,
+      0.060000000000000005,
+      0.07,
+      0.08,
+      0.09,
+      0.09999999999999999
+    ],
+    "temperatures": [
+      293.15,
+      1000000.0,
+      1000000.0,
+      1000000.0,
+      1000000.0,
+      1000000.0,
+      1000000.0,
+      1000000.0,
+      1000000.0,
+      1000000.0,
+      1000000.0
+    ],
+    "pressures": [
+      101325,
+      100000101314.86751,
+      199990101304.73602,
+      299970102294.6056,
+      399940105284.37616,
+      499900111273.8477,
+      599850121262.7203,
+      699790136250.5941,
+      799720157236.969,
+      899640185221.2454,
+      999550221202.7233
+    ],
+    "volumes": [
+      5.235987755982988e-19,
+      5.235987755982988e-19,
+      5.235987755982988e-19,
+      5.235987755982988e-19,
+      5.235987755982988e-19,
+      5.235987755982988e-19,
+      5.235987755982988e-19,
+      5.235987755982988e-19,
+      5.235987755982988e-19,
+      5.235987755982988e-19,
+      5.235987755982988e-19
+    ],
+    "densities": [
+      7874,
+      7874.0,
+      7874.0,
+      7874.0,
+      7874.0,
+      7874.0,
+      7874.0,
+      7874.0,
+      7874.0,
+      7874.0,
+      7874.0
+    ],
+    "phases": [
+      "solid",
+      "plasma",
+      "plasma",
+      "plasma",
+      "plasma",
+      "plasma",
+      "plasma",
+      "plasma",
+      "plasma",
+      "plasma",
+      "plasma"
+    ],
+    "energies": [
+      0,
+      924189777063627.6,
+      924189777063627.6,
+      924189777063627.6,
+      924189777063627.6,
+      924189777063627.6,
+      924189777063627.6,
+      924189777063627.6,
+      924189777063627.6,
+      924189777063627.6,
+      924189777063627.6
+    ],
+    "entropies": [
+      0,
+      7520327735.820635,
+      7520327735.820635,
+      7520327735.820635,
+      7520327735.820635,
+      7520327735.820635,
+      7520327735.820635,
+      7520327735.820635,
+      7520327735.820635,
+      7520327735.820635,
+      7520327735.820635
+    ],
+    "thermal_expansion_coeffs": [
+      1.20009e-05,
+      1.20009e-05,
+      1.20009e-05,
+      1.20009e-05,
+      1.20009e-05,
+      1.20009e-05,
+      1.20009e-05,
+      1.20009e-05,
+      1.20009e-05,
+      1.20009e-05,
+      1.20009e-05
+    ],
+    "bulk_moduli": [
+      170003512625.00003,
+      170003512625.00003,
+      170003512625.00003,
+      170003512625.00003,
+      170003512625.00003,
+      170003512625.00003,
+      170003512625.00003,
+      170003512625.00003,
+      170003512625.00003,
+      170003512625.00003,
+      170003512625.00003
+    ],
+    "compressibility_factors": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  }
+}

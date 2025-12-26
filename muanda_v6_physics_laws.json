@@ -1,0 +1,932 @@
+{
+  "patterns": {
+    "mass_jumps": [
+      33130825750676.0,
+      0.10649999999999998,
+      0.026019199407499992,
+      1.007072,
+      5.437276410719486e+21
+    ],
+    "size_jumps": [
+      141875033802666.0,
+      1000.0,
+      100000.0,
+      436.09804581813654,
+      40000000.0
+    ],
+    "density_changes": [
+      1.1601504860464907e-29,
+      1.065e-10,
+      2.6019199407499995e-17,
+      1.2142499647852166e-08,
+      0.08495744391749196
+    ],
+    "energy_efficiency": [
+      1.1601504860464905e-29,
+      1.0649999999999998e-10,
+      2.6019199407499992e-17,
+      1.2142499647852163e-08,
+      0.08495744391749196
+    ]
+  },
+  "laws": {
+    "structural_information_gain": [
+      27.672138238356723,
+      2.0273496077747564,
+      3.4152939294948186,
+      2.6426446618611963,
+      29.337441402791853
+    ],
+    "packing_efficiency": [
+      0.11480735664525941
+    ],
+    "energy_cost_per_mass_gain": [
+      30.474474769785303,
+      15.981592117214081,
+      15.369536438934144,
+      16.95730303072272,
+      38.689623920903216
+    ],
+    "optimal_jump_sequence": {
+      "optimal_sequence": [
+        "Planck",
+        "Quark",
+        "N\u00facleo",
+        "\u00c1tomo",
+        "Cristal",
+        "Macro"
+      ],
+      "score": 0.16666666666666666,
+      "tested_sequences": [
+        [
+          [
+            "Planck",
+            "Quark",
+            "Pr\u00f3ton",
+            "N\u00facleo",
+            "\u00c1tomo",
+            "Cristal",
+            "Macro"
+          ],
+          0.14285714285714285
+        ],
+        [
+          [
+            "Planck",
+            "Quark",
+            "Pr\u00f3ton",
+            "\u00c1tomo",
+            "Macro"
+          ],
+          -1099.8
+        ],
+        [
+          [
+            "Planck",
+            "Quark",
+            "N\u00facleo",
+            "\u00c1tomo",
+            "Cristal",
+            "Macro"
+          ],
+          0.16666666666666666
+        ]
+      ]
+    }
+  },
+  "constants": {
+    "MAX_JUMP_FACTOR": 5.437276410719486e+21,
+    "ENERGY_TO_MASS_EFFICIENCY": 0.01699149123329833,
+    "MIN_SIZE_QUANTUM": 436.09804581813654,
+    "OPTIMAL_DENSITY_RATIO": 1.065e-10,
+    "HIERARCHICAL_QUANTUM": 1000.0
+  },
+  "predictions": [
+    {
+      "Z": 1,
+      "predicted_mass_kg": 3.8469799999999996e-27,
+      "predicted_size_m": 4.2531702014287317e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 2,
+      "predicted_mass_kg": 7.693959999999999e-27,
+      "predicted_size_m": 5.358658665565677e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 3,
+      "predicted_mass_kg": 1.1540939999999999e-26,
+      "predicted_size_m": 6.134132895454861e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 4,
+      "predicted_mass_kg": 1.5387919999999998e-26,
+      "predicted_size_m": 6.751486851947767e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 5,
+      "predicted_mass_kg": 1.92349e-26,
+      "predicted_size_m": 7.272818741565214e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 6,
+      "predicted_mass_kg": 2.3081879999999998e-26,
+      "predicted_size_m": 7.728523157836168e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 7,
+      "predicted_mass_kg": 2.692886e-26,
+      "predicted_size_m": 8.136021903951343e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 8,
+      "predicted_mass_kg": 3.0775839999999997e-26,
+      "predicted_size_m": 8.506340402857462e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 9,
+      "predicted_mass_kg": 3.4622819999999997e-26,
+      "predicted_size_m": 8.846950532678313e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 10,
+      "predicted_mass_kg": 3.84698e-26,
+      "predicted_size_m": 9.163177424567953e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 11,
+      "predicted_mass_kg": 4.2316779999999996e-26,
+      "predicted_size_m": 9.458965849780183e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 12,
+      "predicted_mass_kg": 4.6163759999999995e-26,
+      "predicted_size_m": 9.737329011157784e-11,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 13,
+      "predicted_mass_kg": 5.0010739999999995e-26,
+      "predicted_size_m": 1.0000626627399657e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 14,
+      "predicted_mass_kg": 5.385772e-26,
+      "predicted_size_m": 1.0250745259194061e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 15,
+      "predicted_mass_kg": 5.770469999999999e-26,
+      "predicted_size_m": 1.0489219704946094e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 16,
+      "predicted_mass_kg": 6.155167999999999e-26,
+      "predicted_size_m": 1.0717317331131353e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 17,
+      "predicted_mass_kg": 6.539865999999999e-26,
+      "predicted_size_m": 1.0936098240869874e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 18,
+      "predicted_mass_kg": 6.924563999999999e-26,
+      "predicted_size_m": 1.1146459203500067e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 19,
+      "predicted_mass_kg": 7.309261999999999e-26,
+      "predicted_size_m": 1.1349166377787473e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 20,
+      "predicted_mass_kg": 7.69396e-26,
+      "predicted_size_m": 1.1544880121134656e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 21,
+      "predicted_mass_kg": 8.078657999999999e-26,
+      "predicted_size_m": 1.1734174094985489e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 22,
+      "predicted_mass_kg": 8.463355999999999e-26,
+      "predicted_size_m": 1.1917550184374798e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 23,
+      "predicted_mass_kg": 8.848054e-26,
+      "predicted_size_m": 1.20954502955318e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 24,
+      "predicted_mass_kg": 9.232751999999999e-26,
+      "predicted_size_m": 1.2268265790909723e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 25,
+      "predicted_mass_kg": 9.617449999999999e-26,
+      "predicted_size_m": 1.2436345112616e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 26,
+      "predicted_mass_kg": 1.0002147999999999e-25,
+      "predicted_size_m": 1.26e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 27,
+      "predicted_mass_kg": 1.0386846e-25,
+      "predicted_size_m": 1.2759510604286192e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 28,
+      "predicted_mass_kg": 1.0771544e-25,
+      "predicted_size_m": 1.2915129729168677e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 29,
+      "predicted_mass_kg": 1.1156242e-25,
+      "predicted_size_m": 1.3067086372355157e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 30,
+      "predicted_mass_kg": 1.1540939999999999e-25,
+      "predicted_size_m": 1.3215588703233674e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 31,
+      "predicted_mass_kg": 1.1925638e-25,
+      "predicted_size_m": 1.336082658209582e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 32,
+      "predicted_mass_kg": 1.2310335999999999e-25,
+      "predicted_size_m": 1.3502973703895534e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 33,
+      "predicted_mass_kg": 1.2695033999999998e-25,
+      "predicted_size_m": 1.364218943239792e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 34,
+      "predicted_mass_kg": 1.3079731999999999e-25,
+      "predicted_size_m": 1.3778620377390249e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 35,
+      "predicted_mass_kg": 1.346443e-25,
+      "predicted_size_m": 1.391240175739154e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 36,
+      "predicted_mass_kg": 1.3849127999999999e-25,
+      "predicted_size_m": 1.4043658582284174e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 37,
+      "predicted_mass_kg": 1.4233826e-25,
+      "predicted_size_m": 1.417250668397024e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 38,
+      "predicted_mass_kg": 1.4618523999999999e-25,
+      "predicted_size_m": 1.4299053618133587e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 39,
+      "predicted_mass_kg": 1.5003221999999997e-25,
+      "predicted_size_m": 1.4423399456171981e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 40,
+      "predicted_mass_kg": 1.538792e-25,
+      "predicted_size_m": 1.4545637483130426e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 41,
+      "predicted_mass_kg": 1.5772618e-25,
+      "predicted_size_m": 1.4665854814848642e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 42,
+      "predicted_mass_kg": 1.6157315999999998e-25,
+      "predicted_size_m": 1.4784132945403338e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 43,
+      "predicted_mass_kg": 1.6542014e-25,
+      "predicted_size_m": 1.490054823418003e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 44,
+      "predicted_mass_kg": 1.6926711999999998e-25,
+      "predicted_size_m": 1.5015172340472338e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 45,
+      "predicted_mass_kg": 1.7311409999999997e-25,
+      "predicted_size_m": 1.5128072612318507e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 46,
+      "predicted_mass_kg": 1.7696108e-25,
+      "predicted_size_m": 1.523931243529768e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 47,
+      "predicted_mass_kg": 1.8080806e-25,
+      "predicted_size_m": 1.5348951546184752e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 48,
+      "predicted_mass_kg": 1.8465503999999998e-25,
+      "predicted_size_m": 1.5457046315672333e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 49,
+      "predicted_mass_kg": 1.8850201999999997e-25,
+      "predicted_size_m": 1.556365000378771e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 50,
+      "predicted_mass_kg": 1.9234899999999998e-25,
+      "predicted_size_m": 1.5668812991142123e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 51,
+      "predicted_mass_kg": 1.9619598e-25,
+      "predicted_size_m": 1.5772582988734182e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 52,
+      "predicted_mass_kg": 2.0004295999999998e-25,
+      "predicted_size_m": 1.5875005228675402e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 53,
+      "predicted_mass_kg": 2.0388994e-25,
+      "predicted_size_m": 1.597612263790431e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 54,
+      "predicted_mass_kg": 2.0773692e-25,
+      "predicted_size_m": 1.6075975996697028e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 55,
+      "predicted_mass_kg": 2.1158389999999997e-25,
+      "predicted_size_m": 1.6174604083560418e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 56,
+      "predicted_mass_kg": 2.1543088e-25,
+      "predicted_size_m": 1.6272043807902686e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 57,
+      "predicted_mass_kg": 2.1927786e-25,
+      "predicted_size_m": 1.636833033171127e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 58,
+      "predicted_mass_kg": 2.2312484e-25,
+      "predicted_size_m": 1.6463497181324697e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 59,
+      "predicted_mass_kg": 2.2697181999999997e-25,
+      "predicted_size_m": 1.6557576350261004e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 60,
+      "predicted_mass_kg": 2.3081879999999998e-25,
+      "predicted_size_m": 1.6650598393956997e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 61,
+      "predicted_mass_kg": 2.3466578e-25,
+      "predicted_size_m": 1.67425925171783e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 62,
+      "predicted_mass_kg": 2.3851276e-25,
+      "predicted_size_m": 1.6833586654777497e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 63,
+      "predicted_mass_kg": 2.4235973999999996e-25,
+      "predicted_size_m": 1.692360754640514e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 64,
+      "predicted_mass_kg": 2.4620671999999998e-25,
+      "predicted_size_m": 1.7012680805714924e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 65,
+      "predicted_mass_kg": 2.500537e-25,
+      "predicted_size_m": 1.710083098454791e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 66,
+      "predicted_mass_kg": 2.5390067999999995e-25,
+      "predicted_size_m": 1.718808163253153e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 67,
+      "predicted_mass_kg": 2.5774765999999996e-25,
+      "predicted_size_m": 1.727445535248503e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 68,
+      "predicted_mass_kg": 2.6159463999999997e-25,
+      "predicted_size_m": 1.7359973851984415e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 69,
+      "predicted_mass_kg": 2.6544161999999994e-25,
+      "predicted_size_m": 1.7444657991405355e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 70,
+      "predicted_mass_kg": 2.692886e-25,
+      "predicted_size_m": 1.752852782873203e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 71,
+      "predicted_mass_kg": 2.7313558e-25,
+      "predicted_size_m": 1.7611602661392464e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 72,
+      "predicted_mass_kg": 2.7698255999999997e-25,
+      "predicted_size_m": 1.7693901065356625e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 73,
+      "predicted_mass_kg": 2.8082954e-25,
+      "predicted_size_m": 1.7775440931711756e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 74,
+      "predicted_mass_kg": 2.8467652e-25,
+      "predicted_size_m": 1.785623950090989e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 75,
+      "predicted_mass_kg": 2.8852349999999996e-25,
+      "predicted_size_m": 1.7936313394865062e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 76,
+      "predicted_mass_kg": 2.9237047999999997e-25,
+      "predicted_size_m": 1.8015678647061954e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 77,
+      "predicted_mass_kg": 2.9621746e-25,
+      "predicted_size_m": 1.8094350730823643e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 78,
+      "predicted_mass_kg": 3.0006443999999995e-25,
+      "predicted_size_m": 1.8172344585873345e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 79,
+      "predicted_mass_kg": 3.0391141999999996e-25,
+      "predicted_size_m": 1.8249674643313598e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 80,
+      "predicted_mass_kg": 3.077584e-25,
+      "predicted_size_m": 1.8326354849135906e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 81,
+      "predicted_mass_kg": 3.1160538e-25,
+      "predicted_size_m": 1.8402398686364582e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 82,
+      "predicted_mass_kg": 3.1545236e-25,
+      "predicted_size_m": 1.8477819195929878e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 83,
+      "predicted_mass_kg": 3.1929934e-25,
+      "predicted_size_m": 1.8552628996357934e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 84,
+      "predicted_mass_kg": 3.2314631999999997e-25,
+      "predicted_size_m": 1.8626840302357957e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 85,
+      "predicted_mass_kg": 3.269933e-25,
+      "predicted_size_m": 1.8700464942380825e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 86,
+      "predicted_mass_kg": 3.3084028e-25,
+      "predicted_size_m": 1.87735143752173e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 87,
+      "predicted_mass_kg": 3.3468725999999995e-25,
+      "predicted_size_m": 1.8845999705699014e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 88,
+      "predicted_mass_kg": 3.3853423999999997e-25,
+      "predicted_size_m": 1.8917931699560366e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 89,
+      "predicted_mass_kg": 3.4238121999999993e-25,
+      "predicted_size_m": 1.8989320797515226e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 90,
+      "predicted_mass_kg": 3.4622819999999994e-25,
+      "predicted_size_m": 1.9060177128598207e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 91,
+      "predicted_mass_kg": 3.5007518e-25,
+      "predicted_size_m": 1.9130510522816673e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 92,
+      "predicted_mass_kg": 3.5392216e-25,
+      "predicted_size_m": 1.920033052315625e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 93,
+      "predicted_mass_kg": 3.5776913999999998e-25,
+      "predicted_size_m": 1.9269646396979495e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 94,
+      "predicted_mass_kg": 3.6161612e-25,
+      "predicted_size_m": 1.9338467146854627e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 95,
+      "predicted_mass_kg": 3.6546309999999995e-25,
+      "predicted_size_m": 1.9406801520848473e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 96,
+      "predicted_mass_kg": 3.6931007999999996e-25,
+      "predicted_size_m": 1.947465802231557e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 97,
+      "predicted_mass_kg": 3.7315705999999997e-25,
+      "predicted_size_m": 1.9542044919212986e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 98,
+      "predicted_mass_kg": 3.7700403999999994e-25,
+      "predicted_size_m": 1.9608970252968556e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 99,
+      "predicted_mass_kg": 3.8085101999999995e-25,
+      "predicted_size_m": 1.9675441846928166e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 100,
+      "predicted_mass_kg": 3.8469799999999996e-25,
+      "predicted_size_m": 1.9741467314406213e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 101,
+      "predicted_mass_kg": 3.8854497999999993e-25,
+      "predicted_size_m": 1.9807054066361557e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 102,
+      "predicted_mass_kg": 3.9239196e-25,
+      "predicted_size_m": 1.9872209318719986e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 103,
+      "predicted_mass_kg": 3.9623894e-25,
+      "predicted_size_m": 1.9936940099362729e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 104,
+      "predicted_mass_kg": 4.0008591999999996e-25,
+      "predicted_size_m": 2.0001253254799312e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 105,
+      "predicted_mass_kg": 4.0393289999999997e-25,
+      "predicted_size_m": 2.0065155456541983e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 106,
+      "predicted_mass_kg": 4.0777988e-25,
+      "predicted_size_m": 2.0128653207197647e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 107,
+      "predicted_mass_kg": 4.1162685999999995e-25,
+      "predicted_size_m": 2.0191752846292494e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 108,
+      "predicted_mass_kg": 4.1547384e-25,
+      "predicted_size_m": 2.0254460555843299e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 109,
+      "predicted_mass_kg": 4.1932082e-25,
+      "predicted_size_m": 2.0316782365688783e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 110,
+      "predicted_mass_kg": 4.231677999999999e-25,
+      "predicted_size_m": 2.0378724158593342e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 111,
+      "predicted_mass_kg": 4.270147799999999e-25,
+      "predicted_size_m": 2.044029167513495e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 112,
+      "predicted_mass_kg": 4.3086176e-25,
+      "predicted_size_m": 2.0501490518388122e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 113,
+      "predicted_mass_kg": 4.3470874e-25,
+      "predicted_size_m": 2.0562326158412362e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 114,
+      "predicted_mass_kg": 4.3855572e-25,
+      "predicted_size_m": 2.0622803936555762e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 115,
+      "predicted_mass_kg": 4.424026999999999e-25,
+      "predicted_size_m": 2.0682929069582926e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 116,
+      "predicted_mass_kg": 4.4624968e-25,
+      "predicted_size_m": 2.0742706653635898e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 117,
+      "predicted_mass_kg": 4.5009666e-25,
+      "predicted_size_m": 2.080214166803615e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    },
+    {
+      "Z": 118,
+      "predicted_mass_kg": 4.539436399999999e-25,
+      "predicted_size_m": 2.0861238978935366e-10,
+      "stability_score": 0,
+      "likely_stable": false
+    }
+  ]
+}
