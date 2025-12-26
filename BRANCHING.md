@@ -26,8 +26,23 @@ Onde `XXX` é um número sequencial de 3 dígitos (001, 002, 003, ...)
 
 ### Workflow
 
+#### Criar Novo Ciclo (Recomendado)
+
+Use o script `new-cycle.sh` para criar novos ciclos automaticamente:
+
+```bash
+# Criar ciclo 002
+./new-cycle.sh 002 "Machine Learning Integration"
+
+# Criar ciclo 003 (sem descrição)
+./new-cycle.sh 003
+```
+
+#### Workflow Manual
+
 ```bash
 # Criar nova branch de ciclo
+git checkout main
 git checkout -b cycle/001
 
 # Trabalhar no ciclo
@@ -39,7 +54,7 @@ git merge cycle/001
 git push origin main
 
 # Criar próximo ciclo
-git checkout -b cycle/002
+./new-cycle.sh 002 "Descrição do próximo ciclo"
 ```
 
 ### Documentação de Ciclos
